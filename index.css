@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  --layout-width: 768px;
+}
+
+html, body { padding: 0; margin: 0; background: #f2f2f2; }
+.navbar { background: #fff; }
+.navbar-container {
+  width: 100%;
+  max-width: var(--layout-width);
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar-brand {
+  flex-grow: 1;
+}
